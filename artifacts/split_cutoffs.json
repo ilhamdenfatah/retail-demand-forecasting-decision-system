@@ -1,0 +1,8 @@
+{
+  "date_min": "2010-02-05",
+  "date_max": "2012-10-26",
+  "val_start": "2012-08-10",
+  "test_start": "2012-10-05",
+  "val_weeks": 8,
+  "test_weeks": 4
+}

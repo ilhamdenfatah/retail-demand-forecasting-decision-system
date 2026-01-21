@@ -1,0 +1,39 @@
+{
+  "time_col": "Date",
+  "sales_col": "Weekly_Sales",
+  "target_col": "y_lead_1",
+  "horizon": 1,
+  "panel_keys": [
+    "Store",
+    "Dept"
+  ],
+  "dim_cols": [
+    "Type"
+  ],
+  "is_holiday_col": "IsHoliday",
+  "freq": "W-FRI",
+  "lags": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "roll_windows": [
+    4,
+    8
+  ],
+  "cap_sales": false,
+  "cap_q_low": 0.001,
+  "cap_q_high": 0.999,
+  "raw_numeric_cols": [
+    "Temperature",
+    "Fuel_Price",
+    "MarkDown1",
+    "MarkDown2",
+    "MarkDown3",
+    "MarkDown4",
+    "MarkDown5",
+    "CPI",
+    "Unemployment"
+  ]
+}
